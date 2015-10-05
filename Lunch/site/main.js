@@ -1,5 +1,5 @@
-$(document).ready(go());
+$(document).ready(function() {
+  $('#todaysdate').text("Today is " + moment().format('MMMM D, YYYY'));
+});
 
-var go = function() {
-    console.log('hey');
-}
+

@@ -29,7 +29,6 @@ class ViewController: UIViewController {
         //load assets in respect to their base URL ('tis why I keep all the site files in the same folder)
         let base = NSBundle.mainBundle().pathForResource("site/main", ofType: "css")!
         let baseUrl = NSURL(fileURLWithPath: base)
-        print(html)
         webviewHTML.loadHTMLString(html, baseURL: baseUrl)
     }
 
@@ -63,7 +62,7 @@ class ViewController: UIViewController {
         let day = components.day
         let month = components.month
         let year = components.year
-        return "current_day=\(year)-\(month)-\(day)&adj=0"
+        return "current_day=\(year)-\(month)-\(day)&adj=3"
     }
     
     //HTTP POST method
