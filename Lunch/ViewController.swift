@@ -21,39 +21,37 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var webviewHTML: UIWebView!
     
-    func extractMenuPagesFromHTML(html: String) {
-        let parser = MenuParser(html: html);
-        let pages:[MenuPage] = parser.getMenuPages()
-    }
-    
     //set the view with HTML string
     func updateWebview(var html: String) {
         
-        extractMenuPagesFromHTML(html)
-        
-        html = injectHTML() + html //inject a header of assets like css and scripts
+        html = assembleHTML(html) //inject a header of assets like css and scripts
 
         //load assets in respect to their base URL ('tis why I keep all the site files in the same folder)
         let base = NSBundle.mainBundle().pathForResource("site/main", ofType: "css")!
         let baseUrl = NSURL(fileURLWithPath: base)
+        print(html)
         webviewHTML.loadHTMLString(html, baseURL: baseUrl)
     }
-    
+
     //put some html files at the top (like a web page)
-    func injectHTML() -> String {
-        var header: String = ""
-        let assets: [String] = [
-            "<link href=\"main.css\" rel=\"stylesheet\"/>",
-            "<script src=\"jquery-1.11.3.min.js\"></script>",
-            "<script src=\"mod-plugins.js\"></script>",
-            "<script src=\"jquery.mobile-1.4.5.min.js\"></script>",
-            "<script src=\"moment.min.js\"></script>",
-            "<script src=\"main.js\"></script>"
-        ]
-        for asset in assets {
-            header += asset
+    func assembleHTML(var html: String) -> String {
+        let fileMgr = NSFileManager.defaultManager()
+        let hPath = NSBundle.mainBundle().pathForResource("site/header", ofType: "html")!
+        let fPath = NSBundle.mainBundle().pathForResource("site/footer", ofType: "html")!
+        var hContent: String?
+        var fContent: String?
+        if fileMgr.fileExistsAtPath(hPath) && fileMgr.fileExistsAtPath(fPath) {
+            do {
+                hContent = try String(contentsOfFile: hPath, encoding: NSUTF8StringEncoding)
+                fContent = try String(contentsOfFile: fPath, encoding: NSUTF8StringEncoding)
+            } catch let error as NSError {
+                print("error:\(error)")
+            }
+        } else {
+            print("not found")
         }
-        return header
+        html = hContent! + html + fContent!
+        return html;
     }
     
     //build a data parameter string from today
@@ -65,7 +63,7 @@ class ViewController: UIViewController {
         let day = components.day
         let month = components.month
         let year = components.year
-        return "current_month=\(year)-\(month)-\(day)&adj=0"
+        return "current_day=\(year)-\(month)-\(day)&adj=0"
     }
     
     //HTTP POST method
@@ -93,7 +91,7 @@ class ViewController: UIViewController {
     //the view did load, successfully i suppose
     override func viewDidLoad() {
         super.viewDidLoad()
-        let url = "http://myschooldining.com/Rockhurst%20High%20School/calendarMonth"
+        let url = "http://myschooldining.com/Rockhurst%20High%20School/calendarWeek"
         post(url, params: getDateParams(), successHandler: {(response) in self.updateWebview(response)});
     }
 
