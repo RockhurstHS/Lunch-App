@@ -1,2 +1,2 @@
 # Lunch-App
-pulls data from myschooldining.com via http pos
+pulls data from myschooldining.com via http post
