@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		874FB0E31BBADBE500364611 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874FB0E21BBADBE500364611 /* AppDelegate.swift */; };
+		874FB0E51BBADBE500364611 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874FB0E41BBADBE500364611 /* ViewController.swift */; };
+		874FB0E81BBADBE500364611 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 874FB0E61BBADBE500364611 /* Main.storyboard */; };
+		874FB0EA1BBADBE500364611 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 874FB0E91BBADBE500364611 /* Assets.xcassets */; };
+		874FB0ED1BBADBE500364611 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 874FB0EB1BBADBE500364611 /* LaunchScreen.storyboard */; };
+		874FB0F81BBADBE500364611 /* Rock_LunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874FB0F71BBADBE500364611 /* Rock_LunchTests.swift */; };
+		874FB1031BBADBE500364611 /* Rock_LunchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874FB1021BBADBE500364611 /* Rock_LunchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		874FB0F41BBADBE500364611 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 874FB0D71BBADBE500364611 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 874FB0DE1BBADBE500364611;
+			remoteInfo = "Rock Lunch";
+		};
+		874FB0FF1BBADBE500364611 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 874FB0D71BBADBE500364611 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 874FB0DE1BBADBE500364611;
+			remoteInfo = "Rock Lunch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		874FB0DF1BBADBE500364611 /* Rock Lunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rock Lunch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		874FB0E21BBADBE500364611 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		874FB0E41BBADBE500364611 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		874FB0E71BBADBE500364611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		874FB0E91BBADBE500364611 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		874FB0EC1BBADBE500364611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		874FB0EE1BBADBE500364611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		874FB0F31BBADBE500364611 /* Rock LunchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rock LunchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		874FB0F71BBADBE500364611 /* Rock_LunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rock_LunchTests.swift; sourceTree = "<group>"; };
+		874FB0F91BBADBE500364611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		874FB0FE1BBADBE500364611 /* Rock LunchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rock LunchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		874FB1021BBADBE500364611 /* Rock_LunchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rock_LunchUITests.swift; sourceTree = "<group>"; };
+		874FB1041BBADBE500364611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		874FB0DC1BBADBE500364611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874FB0F01BBADBE500364611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874FB0FB1BBADBE500364611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		874FB0D61BBADBE500364611 = {
+			isa = PBXGroup;
+			children = (
+				874FB0E11BBADBE500364611 /* Rock Lunch */,
+				874FB0F61BBADBE500364611 /* Rock LunchTests */,
+				874FB1011BBADBE500364611 /* Rock LunchUITests */,
+				874FB0E01BBADBE500364611 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		874FB0E01BBADBE500364611 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				874FB0DF1BBADBE500364611 /* Rock Lunch.app */,
+				874FB0F31BBADBE500364611 /* Rock LunchTests.xctest */,
+				874FB0FE1BBADBE500364611 /* Rock LunchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		874FB0E11BBADBE500364611 /* Rock Lunch */ = {
+			isa = PBXGroup;
+			children = (
+				874FB0E21BBADBE500364611 /* AppDelegate.swift */,
+				874FB0E41BBADBE500364611 /* ViewController.swift */,
+				874FB0E61BBADBE500364611 /* Main.storyboard */,
+				874FB0E91BBADBE500364611 /* Assets.xcassets */,
+				874FB0EB1BBADBE500364611 /* LaunchScreen.storyboard */,
+				874FB0EE1BBADBE500364611 /* Info.plist */,
+			);
+			path = "Rock Lunch";
+			sourceTree = "<group>";
+		};
+		874FB0F61BBADBE500364611 /* Rock LunchTests */ = {
+			isa = PBXGroup;
+			children = (
+				874FB0F71BBADBE500364611 /* Rock_LunchTests.swift */,
+				874FB0F91BBADBE500364611 /* Info.plist */,
+			);
+			path = "Rock LunchTests";
+			sourceTree = "<group>";
+		};
+		874FB1011BBADBE500364611 /* Rock LunchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				874FB1021BBADBE500364611 /* Rock_LunchUITests.swift */,
+				874FB1041BBADBE500364611 /* Info.plist */,
+			);
+			path = "Rock LunchUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		874FB0DE1BBADBE500364611 /* Rock Lunch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 874FB1071BBADBE500364611 /* Build configuration list for PBXNativeTarget "Rock Lunch" */;
+			buildPhases = (
+				874FB0DB1BBADBE500364611 /* Sources */,
+				874FB0DC1BBADBE500364611 /* Frameworks */,
+				874FB0DD1BBADBE500364611 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rock Lunch";
+			productName = "Rock Lunch";
+			productReference = 874FB0DF1BBADBE500364611 /* Rock Lunch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		874FB0F21BBADBE500364611 /* Rock LunchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 874FB10A1BBADBE500364611 /* Build configuration list for PBXNativeTarget "Rock LunchTests" */;
+			buildPhases = (
+				874FB0EF1BBADBE500364611 /* Sources */,
+				874FB0F01BBADBE500364611 /* Frameworks */,
+				874FB0F11BBADBE500364611 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				874FB0F51BBADBE500364611 /* PBXTargetDependency */,
+			);
+			name = "Rock LunchTests";
+			productName = "Rock LunchTests";
+			productReference = 874FB0F31BBADBE500364611 /* Rock LunchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		874FB0FD1BBADBE500364611 /* Rock LunchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 874FB10D1BBADBE500364611 /* Build configuration list for PBXNativeTarget "Rock LunchUITests" */;
+			buildPhases = (
+				874FB0FA1BBADBE500364611 /* Sources */,
+				874FB0FB1BBADBE500364611 /* Frameworks */,
+				874FB0FC1BBADBE500364611 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				874FB1001BBADBE500364611 /* PBXTargetDependency */,
+			);
+			name = "Rock LunchUITests";
+			productName = "Rock LunchUITests";
+			productReference = 874FB0FE1BBADBE500364611 /* Rock LunchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		874FB0D71BBADBE500364611 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = JacobWilson;
+				TargetAttributes = {
+					874FB0DE1BBADBE500364611 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = Z5FHCHMAWS;
+					};
+					874FB0F21BBADBE500364611 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 874FB0DE1BBADBE500364611;
+					};
+					874FB0FD1BBADBE500364611 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 874FB0DE1BBADBE500364611;
+					};
+				};
+			};
+			buildConfigurationList = 874FB0DA1BBADBE500364611 /* Build configuration list for PBXProject "Rock Lunch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 874FB0D61BBADBE500364611;
+			productRefGroup = 874FB0E01BBADBE500364611 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				874FB0DE1BBADBE500364611 /* Rock Lunch */,
+				874FB0F21BBADBE500364611 /* Rock LunchTests */,
+				874FB0FD1BBADBE500364611 /* Rock LunchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		874FB0DD1BBADBE500364611 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874FB0ED1BBADBE500364611 /* LaunchScreen.storyboard in Resources */,
+				874FB0EA1BBADBE500364611 /* Assets.xcassets in Resources */,
+				874FB0E81BBADBE500364611 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874FB0F11BBADBE500364611 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874FB0FC1BBADBE500364611 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		874FB0DB1BBADBE500364611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874FB0E51BBADBE500364611 /* ViewController.swift in Sources */,
+				874FB0E31BBADBE500364611 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874FB0EF1BBADBE500364611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874FB0F81BBADBE500364611 /* Rock_LunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874FB0FA1BBADBE500364611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874FB1031BBADBE500364611 /* Rock_LunchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		874FB0F51BBADBE500364611 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 874FB0DE1BBADBE500364611 /* Rock Lunch */;
+			targetProxy = 874FB0F41BBADBE500364611 /* PBXContainerItemProxy */;
+		};
+		874FB1001BBADBE500364611 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 874FB0DE1BBADBE500364611 /* Rock Lunch */;
+			targetProxy = 874FB0FF1BBADBE500364611 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		874FB0E61BBADBE500364611 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				874FB0E71BBADBE500364611 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		874FB0EB1BBADBE500364611 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				874FB0EC1BBADBE500364611 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		874FB1051BBADBE500364611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		874FB1061BBADBE500364611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		874FB1081BBADBE500364611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Rock Lunch/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jacob.Rock-Lunch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		874FB1091BBADBE500364611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Rock Lunch/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jacob.Rock-Lunch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		874FB10B1BBADBE500364611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Rock LunchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jacob.Rock-LunchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rock Lunch.app/Rock Lunch";
+			};
+			name = Debug;
+		};
+		874FB10C1BBADBE500364611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Rock LunchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jacob.Rock-LunchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rock Lunch.app/Rock Lunch";
+			};
+			name = Release;
+		};
+		874FB10E1BBADBE500364611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Rock LunchUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jacob.Rock-LunchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Rock Lunch";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		874FB10F1BBADBE500364611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Rock LunchUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jacob.Rock-LunchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Rock Lunch";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		874FB0DA1BBADBE500364611 /* Build configuration list for PBXProject "Rock Lunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874FB1051BBADBE500364611 /* Debug */,
+				874FB1061BBADBE500364611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		874FB1071BBADBE500364611 /* Build configuration list for PBXNativeTarget "Rock Lunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874FB1081BBADBE500364611 /* Debug */,
+				874FB1091BBADBE500364611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		874FB10A1BBADBE500364611 /* Build configuration list for PBXNativeTarget "Rock LunchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874FB10B1BBADBE500364611 /* Debug */,
+				874FB10C1BBADBE500364611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		874FB10D1BBADBE500364611 /* Build configuration list for PBXNativeTarget "Rock LunchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874FB10E1BBADBE500364611 /* Debug */,
+				874FB10F1BBADBE500364611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 874FB0D71BBADBE500364611 /* Project object */;
+}
