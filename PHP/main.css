@@ -1,96 +1,122 @@
-body{
-    background: #f2f2f2;
-    color: #333;
-    font-family: 'Lato', sans-serif;
-    text-align: center;
+body {
     margin: 0;
+    background: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+}
+#content {
     width: 100%;
 }
-h4{
+/*Header*/
+#header {
+    width: 100%;
+    text-align: center;
+    background: #333;
+}
+#header h1 {
+    display: inline-block;
     margin: 0;
+    color: #fff;
 }
-p{
+#header p {
     margin: 0;
+    padding: 0;
+    color: #808080;
+    
 }
-.no-print{
+#header img {
+    vertical-align: middle;
+    margin: 0 0 5px 0;
+}
+/*Navigation*/
+#nav {
+    margin: 0 0 5px 0;
+}
+#nav li {
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+#nav li a {
+    color: #808080;
+}
+/*Container for Menu*/
+#echo {
+    text-align: center;
+    color: #333;
+}
+/*Auto-Generated Styling*/
+.no-print {
     display: none;
 }
-.calendar-nav-month{
-    display: none;
+#table_calendar_week {
+    width: 100%;
 }
-.weekend{
-    display: none;
-}
-.weekday{
-    text-align: left;
+.weekday {
     display: inline-block;
     background: #fff;
+    width: 95%;
+    margin: 10px 0 0 0;
+    text-align: left;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
     -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow:    0px 0px 5px 0px rgba(50, 50, 50, 0.75);
-    box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.75);
-    margin-top: 10px;
-    width: 95%;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
+    box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.75);  
 }
-#header{
-    width: 100%;
-    background: #333;
-    color: white;
+.weekday h4 {
+    margin: 2px 5px 0 5px;
 }
-#header h1{
-    margin: 0;
+#upperschool_lunch {
+    border-top: 1px solid #013ca2;
+    margin: 5px 0 0 0;
+    padding: 5px 0 0 0;
+    color: #013ca2;
 }
-#header img{
-    display: inline-block;
-    margin: 5px 15px 5px 15px;;
-}
-.daily-offerings{
-    display: none;
-}
-.footer{
-    width: 100%;
-    margin-top: 10px;
-    color: #333;
-}
-.footer p{
-    margin: 10px 10px 0 10px;
-}
-#upperschool_lunch{
-    background: #fff;
-    color: #808080;
-    margin-top: 10px;
-    border-top: 1px solid #808080;
-    padding: 5px;
-    -moz-border-radius-bottomright: 3px;
-    -webkit-border-bottom-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    -moz-border-radius-bottomleft: 3px;
-    -webkit-border-bottom-left-radius: 3px;
-    border-bottom-left-radius: 3px;
-}
-.category-value{
+.category-value {
     font-style: italic;
+    border-bottom: 1px solid #013ca2;
     color: #333;
-    border-bottom: 1px solid #333;
 }
-.period-value{
+.period-value {
     display: none;
 }
-/* iPads (portrait) ----------- */
+.daily-offerings {
+    display: none;
+}
+
+
+div.box {
+    width: 100%;
+    height: 3em;
+    color: #f2f2f2;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  div.box.swipeleft {
+    background-color: #7ACEF4;
+  }
+
+
+/* iPads (landscape) ----------- */
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : landscape) {
-    .weekday{
-        width: 75%;
-    }
+  /* Styles */
+#echo {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
 }
+}
+
 /* Desktops and laptops ----------- */
 @media only screen 
 and (min-width : 1224px) {
-    .weekday{
-        width: 75%;
-    }
+  /* Styles */
+#echo {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
 }
