@@ -7,9 +7,10 @@ The MySchoolDining web site uses an HTTP POST request and reponse to get the men
 ## iOS App
 * Uses the Alamofire Framework the http request
 * Uses the Kanna Framework to parse the HTML response
-* Requires iOS 8.0 and up
+* Requires iOS 8.0 and up due to frameworks
 
 ## Android App
 * Native HTTP POST request
 * Gets response and displays it in a webview
 * Relies on an external style sheet
+* Requires 4.4 KitKat and up due to encoding
