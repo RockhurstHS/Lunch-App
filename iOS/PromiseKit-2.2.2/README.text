@@ -1,0 +1,23 @@
+PromiseKit Binary Distribution
+==============================
+
+These frameworks require iOS 8 or OS X 10.10 due to being Swift-based. For
+earlier platforms see: https://github.com/mxcl/PromiseKit
+
+Usage Instructions
+==================
+
+ 1. In the File menu select “Add Files to…”, navigate to this distribution and
+    select PromiseKit.framework.
+ 2. In your application’s target’s General settings, ensure the framework is set
+    to be embedded and not just linked.
+ 3. In your application’s target’s Build Settings, select the “All” tab and
+    ensure “Embedded content contains Swift” is checked.
+
+If you want any of PromiseKit’s categories or extensions (probably you do),
+repeat step one selecting the sources you require.
+
+*NOTE* If you add the category for `NSURLConnection`, you also need to drag and
+drop `OMGHTTPURLRQ.framework`.
+
+If you have trouble: https://github.com/mxcl/PromiseKit/issues/new
