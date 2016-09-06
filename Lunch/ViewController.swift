@@ -62,7 +62,9 @@ class ViewController: UIViewController {
         let day = components.day
         let month = components.month
         let year = components.year
-        return "current_day=\(year)-\(month)-\(day)&adj=3"
+        //The link below is used to get the date to use for getting the html data for showing the lunch.
+        //http://myschooldining.com/RockhurstHighSchool/calendarWeek?current_day=2016-09-01&adj=0
+        return "current_day=\(year)-\(month)-\(day)&adj=0"
     }
     
     //HTTP POST method
@@ -90,7 +92,7 @@ class ViewController: UIViewController {
     //the view did load, successfully i suppose
     override func viewDidLoad() {
         super.viewDidLoad()
-        let url = "http://myschooldining.com/Rockhurst%20High%20School/calendarWeek"
+        let url = "http://myschooldining.com/RockhurstHighSchool/calendarWeek"
         post(url, params: getDateParams(), successHandler: {(response) in self.updateWebview(response)});
     }
 
