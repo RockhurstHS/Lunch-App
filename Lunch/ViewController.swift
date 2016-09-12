@@ -22,18 +22,18 @@ class ViewController: UIViewController {
     @IBOutlet weak var webviewHTML: UIWebView!
     
     //set the view with HTML string
-    func updateWebview(var html: String) {
+    func updateWebview(html: String) {
         
-        html = assembleHTML(html) //inject a header of assets like css and scripts
+        let internalHtml = assembleHTML(html) //inject a header of assets like css and scripts
 
         //load assets in respect to their base URL ('tis why I keep all the site files in the same folder)
         let base = NSBundle.mainBundle().pathForResource("site/main", ofType: "css")!
         let baseUrl = NSURL(fileURLWithPath: base)
-        webviewHTML.loadHTMLString(html, baseURL: baseUrl)
+        webviewHTML.loadHTMLString(internalHtml, baseURL: baseUrl)
     }
 
     //put some html files at the top (like a web page)
-    func assembleHTML(var html: String) -> String {
+    func assembleHTML(html: String) -> String {
         let fileMgr = NSFileManager.defaultManager()
         let hPath = NSBundle.mainBundle().pathForResource("site/header", ofType: "html")!
         let fPath = NSBundle.mainBundle().pathForResource("site/footer", ofType: "html")!
@@ -49,8 +49,8 @@ class ViewController: UIViewController {
         } else {
             print("not found")
         }
-        html = hContent! + html + fContent!
-        return html;
+        let internalHtml = hContent! + html + fContent!
+        return internalHtml;
     }
     
     //build a data parameter string from today

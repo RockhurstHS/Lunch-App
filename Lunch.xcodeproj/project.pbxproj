@@ -12,9 +12,9 @@
 		E65D53761BB64894007DDEC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E65D53741BB64894007DDEC2 /* Main.storyboard */; };
 		E65D53781BB64894007DDEC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E65D53771BB64894007DDEC2 /* Assets.xcassets */; };
 		E65D537B1BB64894007DDEC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E65D53791BB64894007DDEC2 /* LaunchScreen.storyboard */; };
-		E65D53831BB64D97007DDEC2 /* site in Resources */ = {isa = PBXBuildFile; fileRef = E65D53821BB64D97007DDEC2 /* site */; settings = {ASSET_TAGS = (); }; };
-		E66BDDC81BB8759600670B44 /* MenuParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66BDDC71BB8759600670B44 /* MenuParser.swift */; settings = {ASSET_TAGS = (); }; };
-		E66BDDCC1BB877A700670B44 /* MenuPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66BDDCB1BB877A700670B44 /* MenuPage.swift */; settings = {ASSET_TAGS = (); }; };
+		E65D53831BB64D97007DDEC2 /* site in Resources */ = {isa = PBXBuildFile; fileRef = E65D53821BB64D97007DDEC2 /* site */; };
+		E66BDDC81BB8759600670B44 /* MenuParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66BDDC71BB8759600670B44 /* MenuParser.swift */; };
+		E66BDDCC1BB877A700670B44 /* MenuPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66BDDCB1BB877A700670B44 /* MenuPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -113,7 +113,6 @@
 				TargetAttributes = {
 					E65D536C1BB64894007DDEC2 = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = 4K4A86C2C4;
 					};
 				};
 			};
@@ -271,6 +270,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Lunch/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -288,6 +288,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Lunch/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
