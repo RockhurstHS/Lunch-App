@@ -8,6 +8,6 @@
 
 import Foundation
 
-public class MenuPage {
+open class MenuPage {
     
 }
