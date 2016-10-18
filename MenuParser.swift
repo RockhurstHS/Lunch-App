@@ -15,7 +15,7 @@ import Foundation
 
 class MenuParser {
     
-    private var items = [MenuPage]() //new array of MenuPage objects
+    fileprivate var items = [MenuPage]() //new array of MenuPage objects
     
     init(html: String) {
         parseHTMLtoMenuPages(html)
@@ -25,9 +25,9 @@ class MenuParser {
         return items
     }
     
-    private func parseHTMLtoMenuPages(html: String) {
+    fileprivate func parseHTMLtoMenuPages(_ html: String) {
         // build the items array here by going through all the HTML lines
-        let array = html.characters.split("\n") //split before injecting header
+        let array = html.characters.split(separator: "\n") //split before injecting header
         
         /*
         let str = String(array[100])
@@ -39,7 +39,7 @@ class MenuParser {
 
         for i in 0...array.count-1 {
             let s = String(array[i])
-            if s.containsString("<div class='day-") {
+            if s.contains("<div class='day-") {
                 print(s)
             }
         }
